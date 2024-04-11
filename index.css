@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a{text-decoration: none; color: white;}
+    li{list-style: none;}
+}
+
+body{
+    background-color:#022033 ;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header img{
+    width: 40%; 
+    margin-top: 5%; 
+}
+
+li:hover{
+    color: blueviolet;
+    transition: 0.3s;
+}
+
+header li{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin:10%;
+}
+
+
+.inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+}
+
+.inicio .imginicio img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.abertura{
+    margin: 20% 0;
+}
+
+.abertura h1{
+    padding-top: 0px;
+    font-size: 100%;
+}
+
+.abertura h2{
+    width: 60%;
+    font-size: 90%;
+    background-color: rgb(156, 31, 83);
+}
+
+.abertura p{
+    margin-top: 0%;
+    font-size: 100%;
+    margin-top: 5%;  
+}
+
+.encerramento{
+    width: 100%;
+}
+
+.encerramento h1{
+    font-size: 100%;
+}
+
+.encerramento h2{
+    width: 65%;
+    font-size: 90%;
+    background-color: rgb(156, 31, 83);
+}
+
+.encerramento p{
+    margin-top: 5%;
+    font-size: 100%;  
+}
+
+.fotos{
+    column-count:2;
+    column-gap: 5px;
+    background-color: #0e1d25;
+}
+
+img{
+    width: 100%; 
+}
+
+.galeria h5{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-top:1px solid white;
+    border-bottom: solid 1px white;
+    margin-top: 10%;
+}
+
+.convidados h1{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.convidados h2{
+    margin-top: 10%;
+    padding: 0 2%;
+}
+
+.convidados img{
+    width: 100%;
+}
+
+footer{
+    font-size: 70%;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer ul{
+    display: flex;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+footer li{
+    margin: 10px;
+    margin: auto;
+}
+
+footer a:hover{
+    color: rgb(156, 31, 83);
+    transition: 0.3s;
+}
+
+
+@media(min-width:1024px){
+
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1%;
+    }
+
+    header li{
+        color: white;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    .inicio .imginicio img{
+        width: 60rem;
+        margin-top: 2%;
+    }
+
+    .aberturaEncerramento{
+        width: 100%;
+        font-size: 130%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+
+    
+.abertura{
+    width: 35%;
+    margin-top: 10%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.encerramento{
+    width: 35%;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.galeria h5{
+    font-size:  22px;
+    margin-top: 0%;
+}
+
+.fotos{
+    column-count:4;
+    column-gap: 5px;
+}
+    
+.convidados h1{
+    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.convidados h2{
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.convidados p{
+    width: 80%;
+    font-size: 18px;
+    margin: auto;
+}
+
+.convidados img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+footer{
+    font-size: 12px;
+    padding: 30px 0;
+    margin-top: 10%;
+}
+
+footer ul{ 
+    display: inline-flex;
+    margin-top: 10px;
+
+}
+
+footer li{
+    margin: 0 10px;
+}
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

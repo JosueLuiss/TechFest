@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    background-color:#022033 ;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+
+main{
+    color: rgb(195, 223, 247);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+main h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(195, 223, 247);
+    border: solid 1px rgb(117, 106, 145);
+    border-radius: 1cm;
+    padding: 5% ;
+    font-size: 100%;
+}
+
+.programações{
+    margin-top: 10%;
+
+}
+
+.programações img{
+    display: none;
+}
+
+.primeiroDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 3cqmax;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin: auto;
+
+}
+
+.primeiroDia h2{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: px;
+    color:rgb(195, 223, 247);
+}
+
+.primeiroDia ul{
+    margin-top: 5%;
+}
+
+.primeiroDia li{
+    margin-top: 10%;
+    font-size: 80%;
+}
+
+.segundoDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 3cqmax;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.segundoDia h2{
+    text-align: center;
+    color:rgb(195, 223, 247);
+    font-size: 100%;
+}
+
+.segundoDia ul{
+    margin-top: 5%;
+}
+
+.segundoDia li{
+    margin-top: 10%;
+    font-size: 80%;
+}
+
+.programações2 img{
+    display: none;
+}
+
+.terceiroDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 3cqmax;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.programações3 img{
+    display: none;
+}
+
+.terceiroDia h2{
+    text-align: center;
+    color:rgb(195, 223, 247);
+    font-size: 100%;
+}
+
+.terceiroDia ul{
+    margin-top: 5%;
+    font-size: 80%;
+}
+
+.terceiroDia li{
+    margin-top: 10%;
+}
+
+.quartoDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 0.3cm;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.quartoDia h2{
+    text-align: center;
+    color:rgb(195, 223, 247);
+    font-size: 100%;
+}
+
+.quartoDia ul{
+    margin-top: 5%;
+    font-size: 80%;
+}
+
+.quartoDia li{
+    margin-top: 10%;
+}
+
+.programações4 img{
+     display: none;
+}
+
+.programações5 img{
+    display: none;
+}
+
+.quintoDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 0.3cm;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.quintoDia h2{
+    text-align: center;
+    color:rgb(195, 223, 247);
+    font-size: 100%;
+    border-bottom: 1px solid white;
+}
+
+.quintoDia ul{
+    margin-top: 5%;
+    font-size: 80%;
+}
+
+.quintoDia li{  
+    margin-top: 10%;
+}
+
+.programações6 img{
+    display: none;
+}
+
+.sextoDia{
+    width: 100%;
+    border: solid 1px rgb(117, 106, 145);;
+    border-radius: 3cqmax;
+    padding: 3%;
+    color: (195, 223, 247);
+    font-size: 100%;
+    margin-top: 10%;
+}
+
+.sextoDia h2{
+    font-size: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color:rgb(195, 223, 247);
+}
+
+.sextoDia ul{
+    margin-top: 5%;
+    font-size: 80%;
+}
+
+.sextoDia li{
+    margin-top: 10%;
+}
+
+@media(min-width:1024px){
+
+    main h1{
+        font-size: 50px;
+    }
+
+    .primeiroDia{
+        width: 50%;
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .programações{
+        display: flex;
+    }
+
+    .programações img{
+        display: initial;
+        width: 400px;
+        height: 500px;
+        margin-top: 180px;
+    }
+
+    .segundoDia{
+        width: 50%;
+        font-size: 24px;
+        margin-top: 5%;
+    }
+
+    .programações2{
+        display: flex;
+    }
+
+    .programações2 img{
+        display: initial;
+        width: 45%;
+    }
+
+    .terceiroDia{
+        width: 50%;
+        font-size: 24px;
+        margin-top: 5%;
+        margin-left: 40px;
+    }
+
+    .programações3{
+        display: flex;
+    }
+    
+    .programações3 img{
+        display: initial;
+        width: 50%;
+    }
+
+    .quartoDia{
+        width: 50%;
+        font-size: 24px;
+        margin-top: 5%;
+    }
+
+    .programações4{
+        display: flex;
+    }
+
+    .programações4 img{
+        display: initial;
+        width: 45%;
+    }
+
+    .quintoDia{
+        width: 50%;
+        font-size: 24px;
+        margin-top: 5%;
+        margin-left: 40px;
+    }
+
+    .programações5{
+        display: flex;
+    }
+
+    .programações5 img{
+        display: initial;
+        width: 50%;
+    }
+
+    .sextoDia{
+        width: 50%;
+        font-size: 24px;
+        margin-top: 5%;
+    }
+
+    .programações6{
+        display: flex;
+    }
+
+    .programações6 img{
+        display: initial;
+        width: 45%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
